@@ -199,6 +199,22 @@ document.body.appendChild(container);
 <div><div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"><main class="mdl-layout__content"><div style="margin:20px;text-align:center;font-family:Arial, sans-serif"><h1 class="mdl-typography--display-2">Contact Us</h1><form style="display:inline-block;text-align:left;width:300px"><div class="mdl-textfield mdl-js-textfield" style="margin-bottom:15px"><input class="mdl-textfield__input" type="text" id="name"><label class="mdl-textfield__label" for="name">Name</label></div><div class="mdl-textfield mdl-js-textfield" style="margin-bottom:15px"><input class="mdl-textfield__input" type="email" id="email"><label class="mdl-textfield__label" for="email">Email</label></div><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width:100%">Submit</button></form></div></main></div></div>
 
 
+## Test with svg
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="500" height="500">
+   <div><div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"><main class="mdl-layout__content"><div style="margin:20px;text-align:center;font-family:Arial, sans-serif"><h1 class="mdl-typography--display-2">Contact Us</h1><form style="display:inline-block;text-align:left;width:300px"><div class="mdl-textfield mdl-js-textfield" style="margin-bottom:15px"><input class="mdl-textfield__input" type="text" id="name"><label class="mdl-textfield__label" for="name">Name</label></div><div class="mdl-textfield mdl-js-textfield" style="margin-bottom:15px"><input class="mdl-textfield__input" type="email" id="email"><label class="mdl-textfield__label" for="email">Email</label></div><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width:100%">Submit</button></form></div></main></div></div>
+</foreignObject>
+</svg>
+
+
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="500" height="500">
+   <div><div style="margin:20px;text-align:center;font-family:Arial, sans-serif"><h1 style="color:#1976d2;font-size:2rem;margin-bottom:20px">Contact Us</h1><form style="display:inline-block;text-align:left;width:300px"><div style="margin-bottom:15px"><label style="display:block;font-weight:bold;margin-bottom:5px">Name</label><input type="text" style="width:100%;padding:10px;font-size:16px;border:1px solid #ccc;border-radius:4px"></div><div style="margin-bottom:15px"><label style="display:block;font-weight:bold;margin-bottom:5px">Email</label><input type="email" style="width:100%;padding:10px;font-size:16px;border:1px solid #ccc;border-radius:4px"></div><div style="margin-bottom:15px"><label style="display:block;font-weight:bold;margin-bottom:5px">Message</label><textarea rows="4" style="width:100%;padding:10px;font-size:16px;border:1px solid #ccc;border-radius:4px"></textarea></div><button type="submit" style="width:100%;padding:10px;font-size:16px;background-color:#1976d2;color:white;border:none;border-radius:4px;cursor:pointer">Submit</button></form></div></div>
+</foreignObject>
+</svg>
+
+## Add md stuff, like Mermaid
+
 ```mermaid
 sequenceDiagram
     Alice->>John: Hello John, how are you?
