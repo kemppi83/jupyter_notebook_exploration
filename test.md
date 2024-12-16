@@ -1,4 +1,14 @@
-I want to test jupyter notebook as a notes and presentation tool. Emphasis is on the tech team and especially solution designs.
+# Testing Jupyter Notes
+I wanted to test jupyter notebook as a notes and presentation tool. Emphasis is on the tech team and especially solution designs. 
+
+Example diagram to show that you can embed Mermaid.
+
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+```
 
 
 ```typescript
@@ -195,15 +205,7 @@ document.body.appendChild(container);
 
 
 
+
 <div><div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"><main class="mdl-layout__content"><div style="margin:20px;text-align:center;font-family:Arial, sans-serif"><h1 class="mdl-typography--display-2">Contact Us</h1><form style="display:inline-block;text-align:left;width:300px"><div class="mdl-textfield mdl-js-textfield" style="margin-bottom:15px"><input class="mdl-textfield__input" type="text" id="name"><label class="mdl-textfield__label" for="name">Name</label></div><div class="mdl-textfield mdl-js-textfield" style="margin-bottom:15px"><input class="mdl-textfield__input" type="email" id="email"><label class="mdl-textfield__label" for="email">Email</label></div><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width:100%">Submit</button></form></div></main></div></div>
 
 
-
-## Add md stuff, like Mermaid
-
-```mermaid
-sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-    Alice-)John: See you later!
-```
